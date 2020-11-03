@@ -56,11 +56,12 @@ height: inherit;
 }
 
 .mobMenyBarButton  img{
-   	display: inline-block;
-	width: 5vw;	
+   	display: block;
+	width: 4.3em;	
+
 	height: inherit;
-	vertical-align: top;
-	margin-left: -5vw;
+	
+	
    background-color: rgb(234,234,234);
 	
 }
@@ -69,36 +70,25 @@ height: inherit;
 .mobMenyBarButton:hover  img{
    	display:  block;
    background-color:white
- 	margin-left: -5vw;
+ 
 	
 	
 }
 
  .storHeader{
-	width: 90vw;
+	width: 40vw;
 	height: inherit;
    background-color: rgb(234,234,234);
 }
 
-.storHeader img, .litenHeader img {
-	height: inherit;
 
-}
+
 
 .litenHeader {
 	background-color: rgb(234,234,234);
 		float:left !important;
 	background-color:  rgb(234,234,234) !important;
-		width: 3.5em;
-
-		display: block;
-	
-}
-.litenHeader {
-	background-color: rgb(234,234,234);
-		float:left !important;
-	background-color:  rgb(234,234,234) !important;
-		width: 70vw;
+		width: 80vw;
 
 		display: inline-block;
 	
@@ -110,7 +100,7 @@ height: inherit;
  header.stor, {
 	float:left;
 	background-color:  rgb(234,234,234);
-	margin-left: inherit;
+
 	width: 100vw;
 	
 }
