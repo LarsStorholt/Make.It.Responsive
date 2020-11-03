@@ -8,7 +8,7 @@
 
 a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 @media (min-width: 1200px){
@@ -131,8 +131,9 @@ i{
     color: white;
 }
 
-.inovaLogo {
-    opacity: 0.5;
+
+.footer1 .h2 .inovaLogo {
+    color: white;
     font-family: ;
     font-size: ;
 }
