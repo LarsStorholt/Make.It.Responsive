@@ -3,6 +3,7 @@
 *{
     box-sizing: border-box;
     max-width: 100vw;
+
     
 }
 
@@ -50,12 +51,16 @@
 
 .mobMenyBarButton {
 	width: 5em;	
+height: inherit;
 	border-style: 2px solid black;
 }
 
 .mobMenyBarButton  img{
-   	display: block;
-	width: 3em;	
+   	display: inline-block;
+	width: 5vw;	
+	height: inherit;
+	vertical-align: top;
+	margin-left: -5vw;
    background-color: rgb(234,234,234);
 	
 }
@@ -63,13 +68,22 @@
 
 .mobMenyBarButton:hover  img{
    	display:  block;
-	margin-left: inherit;
-	width: 3em;
- 
+   background-color:white
+ 	margin-left: -5vw;
 	
 	
 }
 
+ .storHeader{
+	width: 90vw;
+	height: inherit;
+   background-color: rgb(234,234,234);
+}
+
+.storHeader img, .litenHeader img {
+	height: inherit;
+
+}
 
 .litenHeader {
 	background-color: rgb(234,234,234);
@@ -80,15 +94,23 @@
 		display: block;
 	
 }
-header.liten, header.stor {
-	float:left;
-	background-color:  rgb(234,234,234);;
-	width: 3.5em;
+.litenHeader {
+	background-color: rgb(234,234,234);
+		float:left !important;
+	background-color:  rgb(234,234,234) !important;
+		width: 70vw;
+
+		display: inline-block;
 	
 }
- header.stor {
+.litenHeader. img {
+		width: 5em;
+}
+
+ header.stor, {
 	float:left;
-	background-color:  rgb(234,234,234);;
+	background-color:  rgb(234,234,234);
+	margin-left: inherit;
 	width: 100vw;
 	
 }
@@ -101,8 +123,11 @@ header.liten, header.stor {
    color:white;
    width: 2em;
    display: none;
+ 
 
 }
+
+
 @media (min-width: 1200px){
  .stor {
         display: block;
@@ -118,8 +143,8 @@ header.liten, header.stor {
 .stor {
            display: none;
     }
-    .liten {
-        display: block;
+    header.liten {
+        display: inline-block;
     }
 
 }
@@ -128,8 +153,8 @@ header.liten, header.stor {
  .stor {
          display: none;
     }
-    .liten {
-        display: block;
+      header.liten {
+        display: inline-block;
     }
 
 
@@ -140,8 +165,8 @@ header.liten, header.stor {
  .stor {
        display: none;
     }
-    .liten {
-        display: block;
+     header.liten {
+        display: inline-block;
     }
 
 }
@@ -151,8 +176,8 @@ header.liten, header.stor {
   .stor {
         display: none;
     }
-    .liten {
-        display: block;
+      header.liten {
+        display: inline-block;
     }
 
     
