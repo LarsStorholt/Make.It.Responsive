@@ -1,4 +1,4 @@
-var coll = document.getElementsByClassName("collapsible");
+  window.addEventListener('load', (x) => {  var coll = document.getElementsByClassName("collapsible");
 var i;
 
 for (i = 0; i < coll.length; i++) {
@@ -9,6 +9,8 @@ for (i = 0; i < coll.length; i++) {
       content.style.maxHeight = null;
     } else {
       content.style.maxHeight = content.scrollHeight + "px";
-    }
+     this.classList.toggle("isActive");
+
   });
 }
+  });
