@@ -12,7 +12,7 @@
 .infoArticle {
 		display: inline-block;
 				width: 25vw;
-			font-size: 1.5vw;
+		
 			vertical-align: top;
 			margin-top: 2vw;
 				margin-left: 11vw;
@@ -20,7 +20,7 @@
 }
 .titleAboutUs {
 		display: auto;
-			font-size: 3vw;
+
 		width: inherit;
 		height: 0.002em;
 			margin-left: 11vw;
@@ -36,16 +36,15 @@
 	 	display: inline-block;
 	 float:left;
 vertical-align: top;
-	padding-left: 17vw;
+	padding-left: 2vw;
 			margin-top: 2vw;
 	
 	 background-color: rgb(228,242,255);
 }
 
 .figure1 {
-	width: 18vw;
-
-	font-size: 1vw;
+	width: 14em;
+	margin-left: 1em;
 
 		display: inline-block;
 	background-color: inherit;
@@ -71,8 +70,8 @@ vertical-align: top;
 
 }
 .pcMeny {
-  font-size: 1vw;	
-  margin-left: 27vw;
+  font-size: 1em;	
+  margin-left: 25vw;
 
 }
 
@@ -115,7 +114,7 @@ height: 5.2em;
 }
 .storHeader img {
 	width: 20vw;
-	  margin-left: 40vw;
+	  margin-left: 34vw;
 } 
 .mobMenyBarButton  img{
    	display: block;
@@ -128,31 +127,22 @@ height: 5.2em;
 	
 }
 .aboutUsTeamDiv {
-	display: inline-block;
+	display: auto;
 	text-align: center;
-	font-size: 1vw;
+
 		width: 80vw;
-	margin-left: 11vw;
+	margin-left: 7vw;
 
 }
-.ourTeam {
-			width: 60vw;
-	margin-left: 8vw;
-	margin-top: 4vw;
-	font-size: 3.5vw;
-	background-color: inherit;
-				display: block;
-}
-
 .headerTeam {
-		width: 24vw;
+		width: 25vw;
 	margin-left: 3vw;
-	font-size: 2.5vw;
+
 				display: block;
 
 }
 .headerTeam2 {
-		width: 24vw;
+		width: 25vw;
 		color: gray;
 
 	margin-left: 3vw;
@@ -163,11 +153,10 @@ height: 5.2em;
 .teamPerson {
 	background-color: rgb(234,234,234);
 	display: inline-block;
-
-	margin-left: 5vw;
 	
-		margin-top: 6vw;
-	width: 29vw;
+	margin-left: 8vw;
+		margin-top: 4vw;
+	width: 32vw;
 	
 }
 
@@ -261,7 +250,7 @@ main {
     }
 .litenHeader {
 
-		width: 90vw;
+		width: 91vw;
 
 
 	
@@ -284,7 +273,7 @@ main {
     }
 .litenHeader {
 
-		width: 82vw;
+		width: 85vw;
 
 
 	
@@ -339,7 +328,7 @@ main {
 }
 main {
 	position: absolute;
-    top: 25vw;
+    top: 18vw;
  z-index: -1;
 
 	
