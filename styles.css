@@ -15,7 +15,7 @@
 			font-size: 1.5vw;
 			vertical-align: top;
 			margin-top: 2vw;
-		
+				margin-left: 11vw;
 
 }
 .titleAboutUs {
@@ -23,7 +23,7 @@
 			font-size: 3vw;
 		width: inherit;
 		height: 0.002em;
-	
+			margin-left: 11vw;
 }
 
 .isActive * {
@@ -32,13 +32,13 @@
 		color: black !important;
 }
 .aboutUsInfoDiv {
-	 width: 65vw;
+	 width: 100vw;
 	 	display: inline-block;
 	 float:left;
 vertical-align: top;
 	padding-left: 2vw;
 			margin-top: 2vw;
-			margin-left: 11vw;
+	
 	 background-color: rgb(228,242,255);
 }
 
