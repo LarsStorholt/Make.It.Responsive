@@ -11,7 +11,8 @@
 
 .isActive * {
 	display: block !important;
-	
+		background-color: rgb(234,234,234) !important;
+		color: black !important;
 }
 
 .pcMenyButton {
@@ -38,10 +39,7 @@
 
 }
 
-.active {
-	  background-color: white !important;
-	  color: black !important;
-}
+
 
 .pcMenyButton:hover {
 		
@@ -51,11 +49,12 @@
 }
 
 .mobilMeny {
-	  display: auto;
-	  padding: 0;
-border: none;
-background: none;
-		
+		display: inline-block;
+		border: none;
+		padding: 0;
+		margin: 0;
+		background-color: inherit;
+	
 }
 
 .mobMenyBarButton:hover  .mobMenyButton{
@@ -133,10 +132,11 @@ height: inherit;
 
 .mobMenyButton {
    color: #081449;
-   outline:none;
-   background-color: rgb(8,20,73);
+
+		background-color: rgb(234,234,234) !important;
+		color: black !important;
    padding: 0.5em 0.5em 0.5em 0.5em;
-   color:white;
+  
    width: 2em;
    display: none;
  
