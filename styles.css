@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 a{
     text-decoration: none;
     color: white;
@@ -129,10 +133,18 @@ i{
 }
 
 
-.footer1 .h2 .inovaLogo {
+.footer1 .h2 {
     color: white;
     font-family: ;
     font-size: ;
+}
+
+.inovaLogo{
+    color: white;
+    font-family: 'Sansita', sans-serif;
+    font-size: 4em;
+    font-style: italic;
+
 }
 
 
