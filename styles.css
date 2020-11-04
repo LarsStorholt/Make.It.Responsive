@@ -10,6 +10,11 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+p{
+    line-height: 1.8rem;
+    letter-spacing: 1px;
+}
+
 @media (min-width: 1200px){
     .liten {
         display: none;
@@ -144,6 +149,10 @@ img{
 }
 
 .rødDato{
-    color: red;
+    color: #C74851;
     font-weight: bold;
+}
+
+.lokasjon{
+    color: #70ADFF;
 }

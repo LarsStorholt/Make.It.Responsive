@@ -5,6 +5,11 @@
     text-decoration: none;
 }
 
+p{
+    line-height: 1.8rem;
+	letter-spacing: 1px;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
