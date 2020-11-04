@@ -72,7 +72,7 @@ vertical-align: top;
 }
 .pcMeny {
   font-size: 1vw;	
-  margin-left: 19vw;
+  margin-left: 27vw;
 
 }
 
@@ -115,7 +115,7 @@ height: 5.2em;
 }
 .storHeader img {
 	width: 20vw;
-	  margin-left: 34vw;
+	  margin-left: 40vw;
 } 
 .mobMenyBarButton  img{
    	display: block;
@@ -127,7 +127,59 @@ height: 5.2em;
    background-color: rgb(234,234,234);
 	
 }
+.aboutUsTeamDiv {
+	display: auto;
+	text-align: center;
+	font-size: 1vw;
+		width: 70vw;
+	margin-left: 11vw;
 
+}
+.ourTeam {
+			width: 50vw;
+	margin-left: 12vw;
+	margin-top: 4vw;
+	font-size: 3.5vw;
+
+				display: block;
+}
+
+.headerTeam {
+		width: 30vw;
+	margin-left: 3vw;
+	
+				display: block;
+
+}
+.headerTeam2 {
+		width: 30vw;
+		color: gray;
+
+	margin-left: 3vw;
+				display: block;
+
+}
+
+.teamPerson {
+	background-color: rgb(234,234,234);
+	display: inline-block;'
+	
+	margin-left: 8vw;
+		margin-top: 4vw;
+	width: 32vw;
+	
+}
+
+.teamPerson img {
+	background-color: rgb(234,234,234);
+	display: inline-block;
+	position: relative;
+	width: 14vw;
+	float:left;
+
+	height: 18vw;
+	
+}
 
 .mobMenyBarButton:hover  img{
    	display:  block;
@@ -208,7 +260,7 @@ main {
     }
 .litenHeader {
 
-		width: 91vw;
+		width: 90vw;
 
 
 	
@@ -231,7 +283,7 @@ main {
     }
 .litenHeader {
 
-		width: 85vw;
+		width: 82vw;
 
 
 	
@@ -279,14 +331,14 @@ main {
     }
 .litenHeader {
 
-		width: 82vw;
+		width: 70vw;
 
 
 	
 }
 main {
 	position: absolute;
-    top: 18vw;
+    top: 25vw;
  z-index: -1;
 
 	
