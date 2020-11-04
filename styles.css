@@ -8,11 +8,45 @@
     
 }
 
+.infoArticle {
+		display: inline-block;
+				width: 25vw;
+			font-size: 1.5vw;
+			vertical-align: top;
+			margin-top: 2vw;
+
+}
+.titleAboutUs {
+		display: auto;
+			font-size: 3vw;
+		width: inherit;
+		height: 0.002em;
+	
+}
 
 .isActive * {
 	display: block !important;
 		background-color: rgb(234,234,234) !important;
 		color: black !important;
+}
+.aboutUsInfoDiv {
+	 width: 65vw;
+	 	display: inline-block;
+	 float:left;
+vertical-align: top;
+			margin-top: 2vw;
+			margin-left: 11vw;
+	 background-color: rgb(228,242,255);
+}
+
+.figure1 {
+	width: 18vw;
+
+	font-size: 1vw;
+
+		display: inline-block;
+	background-color: inherit;
+	color: black;
 }
 
 .pcMenyButton {
