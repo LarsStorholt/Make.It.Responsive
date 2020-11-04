@@ -130,27 +130,27 @@ height: 5.2em;
 .aboutUsTeamDiv {
 	display: auto;
 	text-align: center;
-	font-size: 0.8em;
-		width: 70vw;
+	font-size: 0.5em;
+		width: 100vw;
 	margin-left: 2em;
 
 }
 h1.ourTeam {
 		font-size: 7em;
-		margin-left: 16vw;
+		margin-left: 5vw;
 }
 
 .headerTeam {
-		width: 13em;
-		margin-left: 6em;
+		width: 12em;
+		margin-left: 2em;
 		font-size: 2em;
 				display: block;
 
 }
 .headerTeam2 {
-		width: 13em;
+		width: 11em;
 		color: gray;
-		margin-left:6em;
+		margin-left:3em;
 	font-size: 2em;
 				display: block;
 
@@ -159,8 +159,8 @@ h1.ourTeam {
 .teamPerson {
 	background-color: rgb(234,234,234);
 	display: inline-block;
-	
-	margin-left: 9em;
+
+	margin-left: 10em;
 		margin-top: 2vw;
 	height: 13em;
 	
@@ -170,9 +170,9 @@ h1.ourTeam {
 	background-color: rgb(234,234,234);
 	display: inline-block;
 	position: absolute;
-	width: 13em;
+	width: 11em;
 	float:left;
-	margin-left: -27em;
+	margin-left: -22em;
 	height: 13em;
 	
 }
