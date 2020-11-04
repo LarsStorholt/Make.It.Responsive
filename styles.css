@@ -7,6 +7,13 @@
 	text-decoration: none;
     
 }
+main {
+	position: absolute;
+    top: 14vw;
+ z-index: -1;
+
+	
+}
 
 .infoArticle {
 		display: inline-block;
