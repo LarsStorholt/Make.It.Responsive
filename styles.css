@@ -9,21 +9,15 @@
 }
 
 
-.pcMenyButton2 {
-	color: #081449;
-	font-size: 2.6vw;
-
-   background-color: white;
-  margin-top: 0.5em;
-   margin-left: 22vw;
-   display: inline-block;
-
+.isActive * {
+	display: block !important;
+	
 }
 
 .pcMenyButton {
 	color: #081449;
 	font-size: 2em;
-
+	   outline:none;
    background-color: white;
   margin-top: 0.5em;
   margin-left: 2em;
@@ -43,11 +37,6 @@
   margin-left: 19vw;
 
 }
-.pcMeny2 {
-  font-size: 1vw;	
-  margin-left: 7vw;
-
-}
 
 .active {
 	  background-color: white !important;
@@ -60,15 +49,13 @@
 
 	  font-weight:bolder;
 }
-.pcMenyButton2:hover {
-		
-		
-
-	  font-weight:bolder;
-}
 
 .mobilMeny {
-		display: inline-block;
+	  display: auto;
+	  padding: 0;
+border: none;
+background: none;
+		
 }
 
 .mobMenyBarButton:hover  .mobMenyButton{
@@ -93,10 +80,6 @@ height: inherit;
 .storHeader img {
 	width: 20vw;
 	  margin-left: 34vw;
-} 
-.litenHeader img {
-	width: 20vw;
-	 margin-left: 24vw;
 } 
 .mobMenyBarButton  img{
    	display: block;
@@ -137,7 +120,6 @@ height: inherit;
 	
 }
 .litenHeader. img {
-	
 		width: 5em;
 }
 
