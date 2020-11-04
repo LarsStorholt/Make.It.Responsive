@@ -12,7 +12,7 @@
 .infoArticle {
 		display: inline-block;
 				width: 25vw;
-			font-size: 1.5vw;
+			
 			vertical-align: top;
 			margin-top: 2vw;
 				margin-left: 11vw;
@@ -20,7 +20,7 @@
 }
 .titleAboutUs {
 		display: auto;
-			font-size: 3vw;
+
 		width: inherit;
 		height: 0.002em;
 			margin-left: 11vw;
@@ -44,9 +44,7 @@ vertical-align: top;
 
 .figure1 {
 	width: 18vw;
-
-	font-size: 1vw;
-
+  margin-left: 2em;
 		display: inline-block;
 	background-color: inherit;
 	color: black;
@@ -54,7 +52,7 @@ vertical-align: top;
 
 .pcMenyButton {
 	color: #081449;
-	font-size: 2em;
+
 	   outline:none;
    background-color: white;
   margin-top: 0.5em;
@@ -71,7 +69,7 @@ vertical-align: top;
 
 }
 .pcMeny {
-  font-size: 1vw;	
+
   margin-left: 27vw;
 
 }
@@ -130,7 +128,7 @@ height: 5.2em;
 .aboutUsTeamDiv {
 	display: inline-block;
 	text-align: center;
-	font-size: 1vw;
+
 		width: 80vw;
 	margin-left: 11vw;
 
@@ -139,7 +137,7 @@ height: 5.2em;
 			width: 60vw;
 	margin-left: 8vw;
 	margin-top: 4vw;
-	font-size: 3.5vw;
+
 	background-color: inherit;
 				display: block;
 }
@@ -147,7 +145,7 @@ height: 5.2em;
 .headerTeam {
 		width: 24vw;
 	margin-left: 3vw;
-	font-size: 2.5vw;
+
 				display: block;
 
 }
