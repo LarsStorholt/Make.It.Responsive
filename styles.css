@@ -7,13 +7,7 @@
 	text-decoration: none;
     
 }
-main {
-	position: absolute;
-    top: 14vw;
- z-index: -1;
 
-	
-}
 
 .infoArticle {
 		display: inline-block;
@@ -194,7 +188,13 @@ height: 5.2em;
     .liten {
         display: none;
     }
+main {
+	position: absolute;
+    top: 11vw;
+ z-index: -1;
 
+	
+}
 }
 
 
@@ -209,6 +209,13 @@ height: 5.2em;
 
 		width: 90vw;
 
+
+	
+}
+main {
+	position: absolute;
+    top: 11vw;
+ z-index: -1;
 
 	
 }
@@ -228,7 +235,13 @@ height: 5.2em;
 
 	
 }
+main {
+	position: absolute;
+    top: 11vw;
+ z-index: -1;
 
+	
+}
 }
 
 
@@ -246,6 +259,13 @@ height: 5.2em;
 
 	
 }
+main {
+	position: absolute;
+    top: 13vw;
+ z-index: -1;
+
+	
+}
 }
 
 
@@ -260,6 +280,13 @@ height: 5.2em;
 
 		width: 70vw;
 
+
+	
+}
+main {
+	position: absolute;
+    top: 18vw;
+ z-index: -1;
 
 	
 }
