@@ -36,14 +36,15 @@
 	 	display: inline-block;
 	 float:left;
 vertical-align: top;
-	padding-left: 2vw;
+	padding-left: 17vw;
 			margin-top: 2vw;
-	
+
 	 background-color: rgb(228,242,255);
 }
 
 .figure1 {
 	width: 14em;
+	
 	margin-left: 1em;
 
 		display: inline-block;
@@ -140,17 +141,17 @@ h1.ourTeam {
 }
 
 .headerTeam {
-		width: 14em;
-	
-
+		width: 13em;
+		margin-left: 6em;
+		font-size: 2em;
 				display: block;
 
 }
 .headerTeam2 {
-		width: 14em;
+		width: 13em;
 		color: gray;
-
-
+		margin-left:6em;
+	font-size: 2em;
 				display: block;
 
 }
@@ -159,20 +160,20 @@ h1.ourTeam {
 	background-color: rgb(234,234,234);
 	display: inline-block;
 	
-	margin-left: 6vw;
-		margin-top: 4vw;
-
+	margin-left: 9em;
+		margin-top: 2vw;
+	height: 13em;
 	
 }
 
 .teamPerson img {
 	background-color: rgb(234,234,234);
 	display: inline-block;
-	position: relative;
-	width: 14vw;
+	position: absolute;
+	width: 13em;
 	float:left;
-
-	height: 18vw;
+	margin-left: -27em;
+	height: 13em;
 	
 }
 
