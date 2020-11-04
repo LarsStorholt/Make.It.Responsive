@@ -113,7 +113,7 @@ height: 5.2em;
 	border-style: 2px solid black;
 }
 .storHeader img {
-	width: 20vw;
+	width: 25vw;
 	  margin-left: 34vw;
 } 
 .mobMenyBarButton  img{
@@ -129,23 +129,28 @@ height: 5.2em;
 .aboutUsTeamDiv {
 	display: auto;
 	text-align: center;
-
-		width: 80vw;
-	margin-left: 7vw;
+	font-size: 0.8em;
+		width: 70vw;
+	margin-left: 2em;
 
 }
+h1.ourTeam {
+		font-size: 7em;
+		margin-left: 16vw;
+}
+
 .headerTeam {
-		width: 25vw;
-	margin-left: 3vw;
+		width: 14em;
+	
 
 				display: block;
 
 }
 .headerTeam2 {
-		width: 25vw;
+		width: 14em;
 		color: gray;
 
-	margin-left: 3vw;
+
 				display: block;
 
 }
@@ -154,9 +159,9 @@ height: 5.2em;
 	background-color: rgb(234,234,234);
 	display: inline-block;
 	
-	margin-left: 8vw;
+	margin-left: 6vw;
 		margin-top: 4vw;
-	width: 32vw;
+
 	
 }
 
