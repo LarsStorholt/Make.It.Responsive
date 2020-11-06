@@ -7,10 +7,10 @@
 
 .infoArticle {
 	display: inline-block;
-	width: 25vw;
+	width: 50vw;
 	vertical-align: top;
-	margin-top: 2vw;
-	margin-left: 11vw;
+	margin-top: 4vw;
+	margin-left: 0vw;
 }
 
 
@@ -37,7 +37,7 @@ body {
 	display: inline-block;
 	float: left;
 	vertical-align: top;
-	padding-left: 17vw;
+	padding-left: 3	vw;
 	margin-top: 2vw;
 	background-color: rgb(228, 242, 255);
 }
@@ -68,8 +68,8 @@ body {
 }
 
 .pcMeny {
+	text-align: center;
 	font-size: 1em;
-	margin-left: 25vw;
 }
 
 .pcMenyButton:hover {
@@ -111,7 +111,7 @@ body {
 	display: block;
 	width: 4.3em;
 	height: inherit;
-	background-color: rgb(234, 234, 234);
+	background-color: white /* rgb(234, 234, 234)*/;
 }
 
 .aboutUsTeamDiv {
@@ -132,6 +132,7 @@ h1.ourTeam {
 	margin-left: 2em;
 	font-size: 2em;
 	display: block;
+	padding-top: 2vw;
 }
 
 .headerTeam2 {
@@ -159,6 +160,7 @@ h1.ourTeam {
 	margin-left: -22em;
 	height: 13em;
 }
+
 
 .mobMenyBarButton:hover img {
 	display: block;
