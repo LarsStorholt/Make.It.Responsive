@@ -3,8 +3,6 @@
 	box-sizing: border-box;
 	max-width: 100vw !important;
 	text-decoration: none;
-	
-
 }
 
 .infoArticle {
@@ -12,7 +10,6 @@
 	width: 25vw;
 	vertical-align: top;
 	margin-top: 2vw;
-	
 	margin-left: 11vw;
 }
 
@@ -23,8 +20,7 @@ body {
 
 .titleAboutUs {
 	display: auto;
-	width: inherit;
-	
+	width: inherit;	
 	height: 0.002em;
 	margin-left: 11vw;
 }
@@ -40,7 +36,6 @@ body {
 	width: 100vw;
 	display: inline-block;
 	float: left;
-
 	vertical-align: top;
 	padding-left: 17vw;
 	margin-top: 2vw;
@@ -53,7 +48,6 @@ body {
 	display: inline-block;
 	background-color: inherit;
 	color: black;
-
 }
 
 
@@ -125,7 +119,6 @@ body {
 	text-align: center;
 	font-size: 0.5em;
 	width: 100vw;
-
 	margin-left: 2em;
 }
 
@@ -164,7 +157,6 @@ h1.ourTeam {
 	width: 11em;
 	float: left;
 	margin-left: -22em;
-
 	height: 13em;
 }
 
