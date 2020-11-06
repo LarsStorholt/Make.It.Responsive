@@ -3,6 +3,7 @@
 	box-sizing: border-box;
 	max-width: 100vw !important;
 	text-decoration: none;
+	
 
 }
 
@@ -11,9 +12,10 @@
 	width: 25vw;
 	vertical-align: top;
 	margin-top: 2vw;
-	overflow-x: hidden;
+	
 	margin-left: 11vw;
 }
+
 
 body {
 	overflow-x: hidden;	
@@ -38,7 +40,7 @@ body {
 	width: 100vw;
 	display: inline-block;
 	float: left;
-	overflow-x: hidden;
+
 	vertical-align: top;
 	padding-left: 17vw;
 	margin-top: 2vw;
@@ -51,16 +53,18 @@ body {
 	display: inline-block;
 	background-color: inherit;
 	color: black;
-	overflow-x: hidden;
+
 }
+
+
 
 .pcMenyButton {
 	color: #081449;
 	font-size: 2em;
-	outline: none;
+	width: 6em;
 	background-color: white;
 	margin-top: 0.5em;
-	margin-left: 2em;
+	margin-right: -0.2em;
 	display: inline-block;
 }
 
@@ -121,7 +125,7 @@ body {
 	text-align: center;
 	font-size: 0.5em;
 	width: 100vw;
-	overflow-x: hidden;
+
 	margin-left: 2em;
 }
 
@@ -187,7 +191,7 @@ h1.ourTeam {
 	width: 5em;
 }
 
-header.stor {
+header.stor{
 	float: left;
 	background-color: rgb(234, 234, 234);
 	width: 100vw;
