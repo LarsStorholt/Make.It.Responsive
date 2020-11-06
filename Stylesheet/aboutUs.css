@@ -171,6 +171,7 @@ h1.ourTeam {
 	background-color: rgb(234, 234, 234);
 }
 
+
 .litenHeader {
 	background-color: rgb(234, 234, 234);
 	float: left !important;
@@ -196,6 +197,14 @@ header.stor{
 	padding: 0.5em 0.5em 0.5em 0.5em;
 	width: 2em;
 	display: none;
+}
+
+.logoTop {
+	font-family: 'Sansita', sans-serif;
+    font-size: 4em;
+	font-style: italic;
+	color: #071349;
+	text-align: center;
 }
 
 @media (min-width: 1200px) {
