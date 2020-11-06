@@ -338,7 +338,8 @@ header.stor{
 	.litenHeader {
 		width: 70vw;
 	}
-	
+
+
 	main {
 		top: 35vw;
 	}
@@ -366,11 +367,7 @@ header.stor{
 	.litenHeader {
 		width: 70vw;
 	}
-	main {
 
-		top: 45vw;
-		
-	}
 	
 	footer {
 		   float: left; 
@@ -396,11 +393,6 @@ header.stor{
 		width: 70vw;
 	}
 
-	main {
-		
-		top: 56vw;
-		
-	}
 		footer {
 	   float: left; 
 	   display: block; 
