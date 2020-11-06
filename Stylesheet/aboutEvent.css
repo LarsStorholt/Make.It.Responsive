@@ -17,12 +17,12 @@ p{
 
 .toppen{   
  background-color: #E4F2FF;
+
 }
 
 .bunnen{
-    background-color: white;
+    background-color: #E4F2FF;
     text-align: center;
-    he
 }
 
 img{
@@ -30,7 +30,7 @@ img{
 }
 
 .midtenBunnen div{
-    margin: 1vw 2vw;
+    margin: 1vw 2vw 10vw 2vw;
 }
 
 .btn {
@@ -60,6 +60,13 @@ img{
     color: #70ADFF;
 }
 
+.midtenBunnen{
+    background-color: white;
+    width: 70%;
+    display: inline-block;
+    text-align: left;
+}
+
 @media (min-width: 1200px){
     .liten {
         display: none;
@@ -67,14 +74,7 @@ img{
     .stor {
         display: block;
     }
-    .midtenBunnen{
-        background-color: white;
-        width: 70%;
-        display: inline-block;
-        text-align: left;
-        margin: 2vw 0;
-        box-shadow: 0.1vw 0.1vw 20px;
-    }
+    
     .midtenToppen{
         margin-left: 14vw;
         }
@@ -87,14 +87,7 @@ img{
     .stor {
         display: block;
     }
-    .midtenBunnen{
-        background-color: white;
-        width: 70%;
-        display: inline-block;
-        text-align: left;
-        margin: 2vw 0;
-        box-shadow: 0.1vw 0.1vw 20px;
-    }
+   
     .midtenToppen{
         margin-left: 14vw;
         }
@@ -112,9 +105,8 @@ img{
         width: 80%;
         display: inline-block;
         text-align: left;
-        margin: 2vw 0;
-        box-shadow: 0.1vw 0.1vw 20px;
     }
+
     .midtenToppen{
         margin-left: 10vw;
         }
@@ -133,6 +125,7 @@ img{
         display: inline-block;
         text-align: left;
     }
+
     .midtenToppen{
         margin-left: 10vw;
         }
@@ -142,6 +135,7 @@ img{
     .liten {
         display: block;
     }
+
     .midtenBunnen{
         background-color: white;
         width: 100vw;
