@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+p{
+    line-height: 1.8rem;
+    letter-spacing: 1px;
+}
+
+@media (min-width: 1200px){
+    .liten {
+        display: none;
+    }
+    .stor {
+        display: block;
+    }
+    .midtenBunnen{
+        background-color: white;
+        width: 70%;
+        display: inline-block;
+        text-align: left;
+        margin: 2vw 0;
+        box-shadow: 0.1vw 0.1vw 20px;
+    }
+    .midtenToppen{
+        margin-left: 14vw;
+        }
+}
+
+@media (min-width: 1015px) and (max-width: 1199px){
+    .liten {
+        display: none;
+    }
+    .stor {
+        display: block;
+    }
+    .midtenBunnen{
+        background-color: white;
+        width: 70%;
+        display: inline-block;
+        text-align: left;
+        margin: 2vw 0;
+        box-shadow: 0.1vw 0.1vw 20px;
+    }
+    .midtenToppen{
+        margin-left: 14vw;
+        }
+}
+
+@media (min-width: 875px) and (max-width: 1015px){
+    .liten {
+        display: block;
+    }
+    .stor {
+        display: none;
+    }
+    .midtenBunnen{
+        background-color: white;
+        width: 80%;
+        display: inline-block;
+        text-align: left;
+        margin: 2vw 0;
+        box-shadow: 0.1vw 0.1vw 20px;
+    }
+    .midtenToppen{
+        margin-left: 10vw;
+        }
+}
+
+@media (max-width: 875px){
+    .liten {
+        display: block;
+    }
+    .stor {
+        display: none;
+    }
+    .midtenBunnen{
+        background-color: white;
+        width: 80vw;
+        display: inline-block;
+        text-align: left;
+    }
+    .midtenToppen{
+        margin-left: 10vw;
+        }
+}
+
+@media (max-width: 585px){
+    .liten {
+        display: block;
+    }
+    .midtenBunnen{
+        background-color: white;
+        width: 100vw;
+        display: inline-block;
+        text-align: left;
+    }
+    .midtenToppen{
+        margin-left: 1vw;
+        }
+
+    .stor {
+        display: none;
+    }  
+}
+
+
+.toppen{   
+    border-bottom: #262626 solid 1px ;
+}
+
+.bunnen{
+    background-color: #E4F2FF;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+}
+
+.midtenBunnen div{
+    margin: 1vw 2vw;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    border-radius: 9px;
+    background: #88c4f8;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 1vw;
+}
+
+.btn:hover {
+    background: #f7c08a;
+    color: #333;
+}
+
+.rødDato{
+    color: #C74851;
+    font-weight: bold;
+}
+
+.lokasjon{
+    color: #70ADFF;
+}

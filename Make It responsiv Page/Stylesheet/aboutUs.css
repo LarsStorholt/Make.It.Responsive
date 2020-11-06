@@ -1,0 +1,310 @@
+@charset "utf-8";
+* {
+	box-sizing: border-box;
+	max-width: 100vw;
+	text-decoration: none;
+}
+
+.infoArticle {
+	display: inline-block;
+	width: 55vw;
+	vertical-align: top;
+	margin-top: 2vw;
+    text-align: left;
+}
+
+.titleAboutUs {
+	display: block;
+	width: inherit;
+	height: 0.002em;
+    padding: 1.5em 3em;
+    text-align: left
+	
+}
+
+.isActive * {
+	display: block !important;
+	background-color: rgb(234, 234, 234) !important;
+	color: black !important;
+	z-index: 1;
+}
+
+.aboutUsInfoDiv {
+	width: 100vw;
+    padding: 2rem 0rem;
+	display: inline-block;
+	float: left;
+	vertical-align: top;
+	margin-top: 2vw;
+	background-color: rgb(228, 242, 255);
+}
+
+.figure1 {
+	width: 30em;
+	display: inline-block;
+    padding-left: 2em;
+	background-color: inherit;
+	color: black;
+}
+
+.pcMenyButton {
+	color: #081449;
+	font-size: 2em;
+	outline: none;
+	background-color: white;
+	margin-top: 0.5em;
+	margin-left: 2em;
+	display: inline-block;
+}
+
+.mobMenyButton {
+	background-color: gray;
+	width: 5em;
+}
+
+.pcMeny {
+	font-size: 1em;
+	margin-left: 25vw;
+}
+
+.pcMenyButton:hover {
+	font-weight: bolder;
+}
+
+.mobilMeny {
+	display: inline-block;
+	border: none;
+	padding: 0;
+	margin: 0;
+	background-color: inherit;
+}
+
+.mobMenyBarButton:hover .mobMenyButton {
+	display: block;
+	margin-left: inherit;
+	width: 5em;
+}
+
+.mobMenyButton:hover {
+	color: black;
+	background-color: white;
+	width: 5em;
+}
+
+.mobMenyBarButton {
+	width: 5em;
+	height: 5.2em;
+	border-style: 2px solid black;
+}
+
+.storHeader img {
+	width: 25vw;
+	margin-left: 34vw;
+}
+
+.mobMenyBarButton img {
+	display: block;
+	width: 4.3em;
+	height: inherit;
+	background-color: rgb(234, 234, 234);
+}
+
+.aboutUsTeamDiv {
+	display: auto;
+	text-align: center;
+	font-size: 0.5em;
+	width: 100vw;
+	margin-left: 2em;
+}
+
+h1.ourTeam {
+	font-size: 7em;
+	margin-left: 5vw;
+}
+
+.headerTeam {
+	width: 12em;
+	margin-left: 2em;
+	font-size: 2em;
+	display: block;
+}
+
+.headerTeam2 {
+	width: 11em;
+	color: gray;
+	margin-left: 3em;
+	font-size: 2em;
+	display: block;
+}
+
+.teamPerson {
+	background-color: rgb(234, 234, 234);
+	display: inline-block;
+	margin-left: 10em;
+	margin-top: 2vw;
+	height: 13em;
+}
+
+.teamPerson img {
+	background-color: rgb(234, 234, 234);
+	display: inline-block;
+	position: absolute;
+	width: 11em;
+	float: left;
+	margin-left: -22em;
+	height: 13em;
+}
+
+.mobMenyBarButton:hover img {
+	display: block;
+	background-color: white
+}
+
+.storHeader {
+	width: 100vw;
+	height: inherit;
+	background-color: rgb(234, 234, 234);
+}
+
+.litenHeader {
+	background-color: rgb(234, 234, 234);
+	float: left !important;
+	background-color: rgb(234, 234, 234) !important;
+	width: 70vw;
+	display: inline-block;
+}
+
+.litenHeader. img {
+	width: 5em;
+}
+
+header.stor,
+{
+	float: left;
+	background-color: rgb(234, 234, 234);
+	width: 100vw;
+}
+
+.mobMenyButton {
+	color: #081449;
+	background-color: rgb(234, 234, 234) !important;
+	color: black !important;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	width: 2em;
+	display: none;
+}
+
+@media (min-width: 1200px) {
+	.stor {
+		display: block;
+	}
+	.liten {
+		display: none;
+	}
+	main {
+		position: absolute;
+		top: 16vw;
+		
+	}
+}
+
+@media (min-width: 1015px) and (max-width: 1199px) {
+	.stor {
+		display: none;
+	}
+	header.liten {
+		display: inline-block;
+	}
+	.litenHeader {
+		width: 91vw;
+	}
+	main {
+		position: absolute;
+		top: 22vw;
+		
+	}
+}
+
+@media (min-width: 875px) and (max-width: 1015px) {
+	.stor {
+		display: none;
+	}
+	header.liten {
+		display: inline-block;
+	}
+	.litenHeader {
+		width: 85vw;
+	}
+	main {
+		position: absolute;
+		top: 21vw;
+		
+	}
+}
+
+@media (max-width: 875px) {
+	.stor {
+		display: none;
+	}
+	header.liten {
+		display: inline-block;
+	}
+	.litenHeader {
+		width: 85vw;
+	}
+	main {
+		position: absolute;
+		top: 32vw;
+		
+	}
+}
+
+@media (max-width: 585px) {
+	.stor {
+		display: none;
+	}
+	header.liten {
+		display: inline-block;
+	}
+	.litenHeader {
+		width: 70vw;
+	}
+	main {
+		position: absolute;
+		top: 35vw;
+		
+	}
+}
+@media (max-width: 500px) {
+	.stor {
+		display: none;
+	}
+	header.liten {
+		display: inline-block;
+	}
+	.litenHeader {
+		width: 70vw;
+	}
+	main {
+		position: absolute;
+		top: 45vw;
+		
+	}
+}
+
+@media (max-width: 380px) {
+	.stor {
+		display: none;
+	}
+	header.liten {
+		display: inline-block;
+	}
+	.litenHeader {
+		width: 70vw;
+	}
+	main {
+		position: absolute;
+		top: 56vw;
+		
+	}
+}
