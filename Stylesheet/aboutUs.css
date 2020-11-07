@@ -133,6 +133,8 @@ body {
 	height: inherit;
 	background-color:  rgb(234, 234, 234);
 }
+
+
 header.liten{
 		position: fixed;
 
@@ -247,12 +249,16 @@ header.stor{
 	.liten {
 		display: none;
 	}
+	
 	main {
 		
 		top: 16vw;
 			   display: block; 
 			   
 		
+	}
+	.main {
+		padding-top: 16vw!important;
 	}
 	header {
 		display: block;
@@ -280,6 +286,9 @@ header.stor{
 		top: 22vw;
 		
 	}
+	.main {
+		padding-top: 22vw!important;
+	}
 	footer {
 	   	float: left; 
 	   	display: block; 
@@ -303,6 +312,9 @@ header.stor{
 
 		top: 21vw;
 		
+	}
+	.main {
+		padding-top: 21vw !important;
 	}
 	footer {
 	   float: left; 
@@ -337,6 +349,9 @@ header.stor{
 	}
 	.titleAboutUs {
 	    padding-top:15vw;	
+	}
+		.main {
+		padding-top:15vw !important;
 	}
 		footer {
 	   float: left; 
@@ -398,7 +413,9 @@ header.stor{
 .titleAboutUs {
 	    padding-top:23vw;	
 	}
-	
+		.main {
+		padding-top:24vw !important;
+	}
 	footer {
 		   float: left; 
 	   display: block; 
@@ -419,6 +436,9 @@ header.stor{
 	}
 	.titleAboutUs {
 	    padding-top:23vw;	
+	}
+	.main {
+		padding-top:24vw !important;
 	}
 		footer {
 	   float: left; 
