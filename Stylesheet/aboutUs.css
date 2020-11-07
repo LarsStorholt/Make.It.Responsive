@@ -107,7 +107,7 @@ body {
 
 .mobMenyButton:hover {
 	color: black;
-	background-color: white;
+	background-color: rgb(234,234,234);
 	width: 5em;
 }
 
@@ -125,9 +125,9 @@ body {
 
 .mobMenyBarButton img {
 	display: block;
-	width: 4.3em;
+	width: inherit;
 	height: inherit;
-	background-color: white /* rgb(234, 234, 234)*/;
+	background-color:  rgb(234, 234, 234);
 }
 header.liten{
 		position: fixed;
@@ -185,7 +185,7 @@ h1.ourTeam {
 
 .mobMenyBarButton:hover img {
 	display: block;
-	background-color: white
+	
 }
 
 .storHeader {
