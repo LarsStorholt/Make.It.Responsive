@@ -28,7 +28,7 @@ body {
 }
 
 .titleAboutUs {
-		padding-top:18vw;
+		padding-top:10vw;
 	display: auto;
 	width: inherit;	
 	height: 0.002em;
@@ -326,6 +326,9 @@ header.stor{
 		top: 32vw;
 		
 	}
+	.titleAboutUs {
+	    padding-top:15vw;	
+	}
 		footer {
 	   float: left; 
 	   display: block; 
@@ -343,6 +346,9 @@ header.stor{
 	}
 	.litenHeader {
 		width: 70vw;
+	}
+	.titleAboutUs {
+	    padding-top:21vw;	
 	}
 
 		footer {
@@ -363,7 +369,9 @@ header.stor{
 	.litenHeader {
 		width: 70vw;
 	}
-
+.titleAboutUs {
+	    padding-top:23vw;	
+	}
 	
 	footer {
 		   float: left; 
@@ -383,7 +391,9 @@ header.stor{
 	.litenHeader {
 		width: 70vw;
 	}
-
+	.titleAboutUs {
+	    padding-top:23vw;	
+	}
 		footer {
 	   float: left; 
 	   display: block; 
