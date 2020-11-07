@@ -23,12 +23,11 @@
 
 body {
 	overflow-x: hidden;	
-
-
+	font-family: 'montserrat', sans-serif;
 }
 
 .titleAboutUs {
-		padding-top:10vw;
+	padding-top:10vw;
 	display: auto;
 	width: inherit;	
 	height: 0.002em;
