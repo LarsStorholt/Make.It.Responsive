@@ -5,6 +5,10 @@
 	text-decoration: none;
 
 }
+.active {
+ color: white !important;
+ background-color:black !important;
+}
 
 .infoArticle {
 	display: inline-block;
@@ -220,8 +224,8 @@ header.stor{
 
 .mobMenyButton {
 	color: #081449;
-	background-color: rgb(234, 234, 234) !important;
-	color: black !important;
+	background-color: rgb(234, 234, 234);
+	color: black;
 	padding: 0.5em 0.5em 0.5em 0.5em;
 	width: 2em;
 	display: none;
