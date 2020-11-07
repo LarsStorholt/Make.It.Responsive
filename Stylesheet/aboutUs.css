@@ -366,6 +366,7 @@ header.stor{
 
 	.infoArticle{
 		width: 90vw;
+	
 	}
 }
 
@@ -397,6 +398,7 @@ header.stor{
 	.infoArticle{
 		width: 90vw;
 		margin: 0 1vw;
+		padding: 7vw 0;
 	}
 }
 @media (max-width: 500px) {
