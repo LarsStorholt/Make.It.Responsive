@@ -1,0 +1,311 @@
+@charset "utf-8";
+
+
+
+
+
+
+.main {
+    width: 360;
+    background-color: white;
+    height: auto;
+    padding-top: 50px;
+}
+
+h4 {
+    font-family: inherit;
+    border-bottom: 1px solid black;
+    border-bottom-style:groove;
+   font-size: 30px;
+    
+}
+
+.events {
+    background-color: white;
+}
+
+.Event {
+    border: 1px solid gray;
+    display: flex;
+    
+    
+}
+.Bilder{
+    width: 350px;
+    margin: 3px auto auto 3px;
+   
+}
+
+.text1{
+    font-size: 20px;
+    color: red;
+    margin: auto auto auto 4px;
+}
+
+.name {
+    font-size: 26px;
+    width: 300px;
+    margin: 3px auto auto 4px;
+    font-family:fantasy;
+}
+
+.place {
+    font-size: 20px;
+    color: lightblue;
+    width: 300px;
+     margin: -10px auto auto 4px;
+    border-left: 2px solid lightblue;
+    
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    color: black;
+    border-radius: 9px;
+    background: #88c4f8;
+    padding: 15px 35px;
+    border: none;
+  cursor: pointer;
+   margin: 150px auto 20px 0px;
+}
+
+.btn:hover {
+    background: #f7c08a;
+    color: #333;
+}
+    
+
+.one-texts {
+    width: 250px;
+}
+
+
+
+
+@media only screen and (min-width:280px) and (max-width:320px){
+    
+    .main {
+        width: 310px;
+    }
+    
+    .Bilder {
+        width: 290px;
+    }
+    
+    
+    h4 {
+        font-size: 20px;
+    }
+    
+    .btn {
+         
+        margin: 220px auto 20px -220px; 
+        padding: 10px 90px;
+        
+    }
+    
+   
+}
+
+
+
+
+@media only screen and (min-width:375px) and (max-width:400px){
+    
+    .main {
+        width: 360px;
+    }
+    
+    .Bilder {
+        width: 352px;
+    }
+    
+    .btn {
+        margin: 150px auto 20px -10px;
+    }
+}
+
+
+@media only screen and (min-width:411px){
+    
+    .main {
+        width: 400px;
+    }
+    
+    .Bilder {
+        width: 390px;
+    }
+    
+    .btn {
+        margin: 180px auto 20px 30px;
+        padding: 10px 35px;
+    }
+}
+
+
+@media only screen and (min-width:540px) and (max-width:600px) {
+    
+     .main {
+        width: 540px;
+    }
+    
+    .Bilder {
+        width: 530px;
+    }
+    
+    .btn {
+        margin: 220px auto 20px -40px;
+        padding: 30px 60px;
+    }
+    
+
+    .one-texts {
+        width: 400px;
+    }
+    
+    .name {
+       font-size:  32px;
+    }
+    
+    .text1 {
+        font-size: 30px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    
+    .main {
+    width: 768px;
+    
+        
+  
+}
+    
+    .Event {
+    width: 46%;
+    margin: 15px;     
+    
+}
+    
+    
+    .Bilder{
+    width: 344px;
+    
+   
+}
+    
+    .Events {
+        width: 768;
+         display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+       
+    }
+    
+    h4 {
+        padding-left: 20px;
+        font-size: 30px;
+    }
+    
+    .btn {
+       padding: 1px 30px;
+      margin: 148px auto 20px -5px;
+    }
+    
+  
+    
+}
+
+
+@media only screen and (min-width: 1024px){
+    
+    .main {
+        width: 1024px;
+    }
+    
+    .Event {
+        width: 47%;
+    }
+    
+    .Bilder {
+        width: 470px;
+    }
+    
+  
+    
+     h4 {
+        padding-left: 20px;
+        font-size: 30px;
+    }
+    
+    .btn {
+       padding: 30px 60px;
+        margin: 195px auto auto 50px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1026px) {
+    
+    .main {
+        width: 100%;
+    }
+    
+    .Event {
+        width: 47%;
+        margin: 18px;
+        height: 355px;
+    }
+    
+    .Bilder {
+        width: 628px;
+    }
+    
+  
+    
+    .text1 {
+        font-size: 30px;
+       
+    }
+    
+    .one-texts {
+    width: 350px;
+    }
+    
+    .name {
+        font-size: 38px;
+        width: 350px;
+    }
+    
+    .place {
+        width: 350px;
+        font-size: 30px;
+    }
+    
+    h4 {
+        font-size: 50px;
+         border-bottom: 3px solid black;
+    }  
+    
+    
+    .btn {
+        
+         padding: 30px 60px;
+        margin: 260px auto auto 100px;
+        
+    }
+}
+
+
+
+

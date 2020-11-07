@@ -1,5 +1,3 @@
-/*Mobil Portrait */
-/*About Us*/
 @media screen and (max-width: 425px) {
     #home-info{
         height: 46rem;
@@ -21,6 +19,7 @@
 @media screen and (max-width: 425px) {
     #event{
         height: 55rem;
+        background-color: aqua;
     }
     .event_header{
         height: 130px;
